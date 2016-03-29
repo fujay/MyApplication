@@ -1,0 +1,210 @@
+<resources>
+    <string name="app_name">HMI</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_layouts">Layouts</string>
+    <string name="action_taeschung">Optische Täuschungen</string>
+    <string name="action_menu">Menüs</string>
+    <string name="action_dialog">Dialoge</string>
+    <string name="action_widget">Widgets</string>
+    <string name="action_voice">Voice</string>
+    <string name="action_sensor">Sensoren</string>
+    <string name="action_input">Eingabe</string>
+    <string name="action_games">Games</string>
+    <string name="section_format">Section: %1$d selected</string>
+
+    <string name="switcher">Switch</string>
+    <string name="switch_full_little">Scroll / Spinner:</string>
+    <string name="switch_little_full">Spinner / Scroll:</string>
+    <string name="apply">Übernehmen</string>
+    <string name="input_text">Text</string>
+    <string name="input_password">Password</string>
+    <string name="input_email">E-Mail</string>
+    <string name="input_number">Zahlen</string>
+    <string name="input_phone">Telefonnummer</string>
+    <string name="input_uri">Text URI</string>
+    <string name="abc">AaBbCc</string>
+    <string name="absolute">Absolut:</string>
+    <string name="relative">Relativ:</string>
+    <string name="changeImage">Bild wechseln</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="restart">Neustart</string>
+    <string name="type_accelerometer">X: %1$s m/s^2\nY: %2$s m/s^2\nZ: %3$s m/s^2</string>
+    <string name="type_gyro">X: %1$s rad/s\nY: %2$s rad/s\nZ: %3$s rad/s</string>
+    <string name="type_light">%1$s lx</string>
+    <string name="type_magnetic">X: %1$s μT Y: %2$s μT Z: %3$s μT</string>
+    <string name="type_orientation">%1$s °Grad</string>
+    <string name="button_Acceleration">Beschleunigung</string>
+    <string name="button_brightness">Helligkeit</string>
+    <string name="button_Gravity">Schwerkraft</string>
+    <string name="button_Gyroscope">Gyroskop</string>
+    <string name="button_Geomagnetic">Erdmagnetfeldsensor</string>
+    <string name="button_AlertDialog">AlertDialog</string>
+    <string name="button_DatePicker">DatePickerDialog</string>
+    <string name="button_TimePicker">TimePickerDialog</string>
+    <string name="button_Game_Timing">Spiel mit Zeit</string>
+    <string name="button_Game_Dots">Spiel mit Punkten</string>
+    <string name="button_Game_Objects_Analog">Spiel mit Analoger Steuerung</string>
+    <string name="button_Game_Objects_Touch">Spiel mit Touch Steuerung</string>
+    <string name="button_Game_Accelelerometer">Spiel mit Beschleunigungs-\nsensor</string>
+    <string name="button_Game_Kugel">Kugel ins Loch</string>
+    <string name="button_Game_Koffer">Ich packe meinen Koffer</string>
+    <string name="widget_hint">Klasse des Widgets:</string>
+    <string name="all_sensors">Sensoren:%1$s</string>
+    <string name="connected">Verbundene Elemente</string>
+    <string name="syncContacts">Syncronisiere Kontakte</string>
+    <string name="syncCalendar">Syncronisiere Kalendar</string>
+    <string name="attending">Teilnahme?</string>
+    <string name="yes">Ja</string>
+    <string name="maybe">Vielleicht</string>
+    <string name="no">Nein</string>
+    <string name="sound">Lautstärke</string>
+    <string name="soundon">Sound</string>
+    <string name="soundoff">Silent</string>
+    <string name="vibration">Vibration</string>
+    <string name="togglebutton">Toggle Button</string>
+    <string name="button_checkbox">Checkbox</string>
+    <string name="button_radiobutton">Radio Button</string>
+    <string name="button_faq">FAQ</string>
+    <string name="button_time">Zeit ansagen</string>
+    <string name="button_startvoice">Spracherkennung starten</string>
+    <string name="button_texttospeech">Text-to-Speech</string>
+    <string name="button_textfield">Textfelder</string>
+    <string name="textinput">Auszugebenden Text eingeben</string>
+    <string name="noTTS">Sprackerkennung nicht verfügbar!</string>
+    <string name="prompt">Spracherkennung: Sagen Sie etwas</string>
+    <string name="button">Button</string>
+    <string name="button_icon">Button mit Icon</string>
+    <string name="button_borderless">Button ohne Rand</string>
+    <string name="button_custom">Custom Button</string>
+    <string name="button_custom_xml">Custom Button (xml)</string>
+    <string name="button_custom_png">Custom Button (png)</string>
+    <string name="button_rotate">Rotate Button (xml)</string>
+    <string name="imagebutton">ImageButton</string>
+    <string name="button_context">Tippen und halten (Kontextmenü)</string>
+    <string name="item1">Menüeintrag #1</string>
+    <string name="item2">Menüeintrag #2</string>
+    <string name="item3">Menüeintrag #3</string>
+    <string name="faqLayout">Die Layout Klassen dienen zur Anordnung von Steuerelementen. Die verschiedenen Layouts können beliebig geschachtelt werden. Beim erzeugen der Benutzerschnittstelle wird zur Laufzeit aus der Layout XML Datei eine Java Klasse erstellt.</string>
+    <string name="faqLinear">Ordnet die eingebetteten Steuerelemente entweder horizontal oder vertikal an. Die Ausrichtung wird über den XML Parameter android:orientation festgelegt.</string>
+    <string name="faqRelative">Positioniert die eingebetteten Steuerelemente relativ zueinander (Bildschirmrand, zu sich selbst, View). Die Relation zueinander wird mit folgenden Parametern beeinflusst:\nandroid:layout_\nabove, below, toLeftOf, toRightOf, alignLeft, alignTop, alignRight, alignBottom.</string>
+    <string name="faqTable">Ähnelt einer Tabelle und gruppiert die eingebetteten Steuerelemente innerhalb der Elemente vom Typ TableRow. Mittels den Parametern android:layout_width und android:layout_weight kann die Größe der Steuerelemente relativ zueinander festgelegt werden.</string>
+    <string name="faqGrid">Die eingebetteten Elemente werden auf einem Raster positioniert, wobei sich ein Steuerelement über mehrere Zeilen und Spalten erstrecken kann.</string>
+    <string name="faqFrame">Die eingebetteten Elemente werden übereinander angezeigt. Im Programmcode können dann verschiedene Steuerelemente abhängig von der Benutzereingabe angezeigt oder ausgeblendet werden.</string>
+    <string name="faqList">Mit einem ListView lassen sich große und komplexe Listen sehr effizient und benutzerfreundlich darstellen Die Listen sind scrollbar und registrieren Benutzereingaben. Die Listeneinträge werden automatisch in die Liste mit einem Adapter eingefügt. Die Inhalte werden aus einer Quelle wie einem Array oder einer Datenbank bezogen.</string>
+    <string name="faqAbsolute">Definiert genaue Standorte (x/y Koordinaten) für die Steuerelemente. Solche Layouts sind weniger flexibel und schwer zu warten und an verschiedene Bildschirmauflösungen und größen anzupassen.</string>
+    <string name="info">HMI Projekt WS15/16 FRA-UAS\nDiese Android Application soll anhand von Android <br>Human Machine Interface</br> möglichkeiten zeigen.\nProgrammiert von Marcel Klamm</string>
+    <string name="faqDialog">Wenn der Benutzer ein Dialog anklickt, öffnet sich ein kleines Fenster mit einem Titel und einer Message oder optional mit Schaltflächen wie Eingabefeldern usw.\n Solche modalen Dialoge werden über der aktuellen Activity angezeigt. Sie erhalten den Fokus und nehmen alle Eingaben entgegen, der Anwender wird also in seiner Tätigkeit unterbrochen.\n"Toasts" sind Kurznachrichten für den Benutzer. Diese Kurznachricht schwebt quasi über der normalen Applikations-View und kann keinen Fokus erlangen. Bei der Anzeige eines Toasts ist es völlig egal, was der Benutzer gerade macht, der Toast wird in jedem Fall angezeigt. Die Idee dahinter ist, den Benutzer so wenig wie möglich zu stören, ihm aber die im Toast enthaltene Information jedenfalls zu präsentieren.</string>
+    <string name="faqMenu">Menüs präsentieren dem Benutzer Funktionen bzw. Aktionen, die er zu einem bestimmten Zeitpunkt ausführen kann. Klassische Desktop-Systeme kennen neben einer Menüleiste sogenannte Kontextmenüs, die nach dem Anklicken eines Objekts mit der rechten Maustaste geöffnet werden.</string>
+    <string name="faqSensor">Android-Geräte enthalten zahlreiche Sensoren. Diese lassen sich mit geringem Aufwand in eigenen Apps nutzen. Beispiele:\nAbschalten des Bildschirmes beim Telefonieren, Darstellung auf dem Bildschirm passt sich der Ausrichtung an, Spiele reagieren auf Bewegungsänderungen, Karten-Apps erkennen automatisch den Standort uvm.</string>
+    <string name="faqInput">Checkboxen sind eine Gruppe von ankreuzbaren Kontrollfeldern, bei denen der Anwender keine, eine oder mehrere auswählen kann.\nRadio-Buttons sind eine Gruppe von beschrifteten Knöpfen, von denen der Anwender einen auswählen kann. Es kann immer nur einer ausgewählt sein.\nToggle-Buttons erlauben den Nutzer Einstellungen zwischen zwei Zuständen (Ein und Aus) zu schalten.\nSpinner bieten eine schnelle Möglichkeit einen Wert aus einer Menge zu wählen. In der Grundeinstellung zeigt ein Spinner den aktuell ausgewählten Wert. Beim Berühren zeigt sich ein Dropdown-Menü mit allen anderen verfügbaren Werte, aus denen der Benutzer eine neue auswählen kann.</string>
+    <string name="faqKontextMenu">Android kennt das von Desktop-Systemen bekannte Konzept der Kontextmenüs. Anstelle der rechten Maustaste löst das lange Antippen (Tippen und Halten) eines Elements das Menü aus.</string>
+    <string name="faqGameTiming">Das Spiel zeigt eine zufällig gewählte Zeit im Intervall von 0 und 10 Sekunden an.\nDer Benutzer muss zweimal auf den Button drücken und versuchen die Zeit rechtzeitig zu stoppen:\n-Der erste Klick startet den Zähler\n-Der zweite Klick beendet den Zähler\nDas Spiel gibt die Absolute und Relative differenz verglichen mit der zufällig gewählten Zeit.\nNeuer Verusch beim klicken auf Start mit der selben Zeit oder Restart für eine neue Zeit.</string>
+    <string name="faqGameDots">Game with Dots:\nVerschiedene Objekte erscheinen an zufälligen Stellen und dein Ziel ist es, das richtige Objekt anzuklicken. Sieh am oberen Bildschirmrand, welches Objeckt mit welcher Farbe gesucht wird!\nObere Linke Ecke: Punkte\nObere Rechte Ecke: Runden\nObere Mitte: Hinweis\nUntere Mitte: Countdown\nUntere Rechte Ecke: Highscore</string>
+    <string name="faqKofferGame">Das Spiel besteht darin, vom „Einpacken eines Koffers“ zu berichten und Gegenstände zu nennen, die bereits in den Koffer gepackt wurden. Eine zufällig gewählte Person beginnt das Spiel und legt einen beliebigen Gegenstand hinein. Im Uhrzeigersinn wird fortgefahren. Der jeweils nächste Mitspieler wiederholt den gesamten Satz seines Vorgängers inklusive aller Gegenstände, die dieser genannt hat, und fügt einen eigenen Gegenstand hinzu. Reihum müssen die Spieler so alle bereits genannten Gegenstände in der richtigen Reihenfolge lückenlos aufzählen und am Ende der Liste einen weiteren, eigenen Gegenstand hinzufügen. Ein Spieler verliert, wenn er Gegenstände in ihrer Reihenfolge vertauscht oder weglässt.</string>
+    <string name="kofferAblauf">Ich packe meinen Koffer und lege hinein ...</string>
+    <string name="simultankontrast">Unterschiedliche Grauwerte der kleinen Rechtecke?</string>
+    <string name="simultankontrastInfo">Fälschliche Warnehmung von Kontrast bei simultaner Präsentation gleicher Grauwertflächen Laterale Hemmung.</string>
+    <string name="hermanngitter">An den Kreuzpunkten werden graue Kreise wahrgenommen</string>
+    <string name="hermanngitterInfo">Erscheint nur nocht dort, wo man hinsieht. Ursache kommt von laterale Hemmung. An den Kreuzungen von 4 Seiten und an den Streifen nur von oben sowie unten.</string>
+    <string name="gestaltgesetze">Gestaltgesetzte: Widerstrebende Informationen: So schnell wie möglich die Farben des Textes sagen</string>
+    <string name="gestaltgesetzeInfo">Man kann nicht nicht lesen</string>
+    <string name="straightlines">Relativität von Linien: Sind die senkrechten und waagerechten Linen Geraden- oder wellenförmig?</string>
+    <string name="straightlinesInfo">Die schachbrettartig angeordneten dunklen und hellen Teilquadrate sind durch kleine helle Quadrate gestört. Dadurch ensteht der Eindruck, als seien diese Trennlinien wellenförmig gekrümmt.</string>
+    <string name="cafewall">Relativität von Linien: Sind die waagerechten Linien exakt parallel?</string>
+    <string name="cafewallInfo">Die Querbalken scheinen keilförmig zu sein. In Wahrheit sind alle horizontalen Linien exakt parallel und die Querstreifen sind Rechtecke.</string>
+    <string name="zollnerillusion">Relativität von Linien: Sind die diagonalen Linien gekrümmt?</string>
+    <string name="zollnerillusionInfo">Die diagonalen Linien erscheinen gekrümmt, aber  tatsächlich sind sie gerade und parallel (Zöllner-Illusion).</string>
+    <string name="nachbild">Relativität von Farben: Etwa eine halbe Minute lang auf das gründe Quadrat starren und anschließend auf die freie Fläche daneben, was kann man sehen?</string>
+    <string name="nachbildInfo">Es entsteht auf der freien Fläche ein rötliches Quadrat, weil wir ein Nachbild in Komplementärfarbe auf der Netzhaut sehen.</string>
+    <string name="gradientOptIll">Relativität von Helligkeit: Ist der graue Balken links heller als rechts?</string>
+    <string name="gradientOptIllInfo">Der graue Balken besitzt überall den gleichen Grauwert. Links erscheint Grau bei dunkler Umgebung heller, in heller Umgebung dunkler. Die Wahrnehmung von Helligkeitsunterschieden ist sehr subjektiv.</string>
+    <string name="gradientSquareOptIll">Relativität von Helligkeit: Ist das Quadrat B ein helles oder dunkles Quadrat?</string>
+    <string name="gradientSquareOptIllInfo">Das Quadrat B liegt im Schatten. Dem Muster folgend muss es ein weißes Quadrat sein, viel heller als das dunkle Quadrat A. Absolut betrachtet sind beide Quadrate jedoch gleich hell.</string>
+    <string name="ebbinghausIll">Relativität von Größe: Haben die blauen Kugeln die gleiche Größe?</string>
+    <string name="ebbinghausIllInfo">Die menschliche Wahrnehmung wird verwirrt: Die linke blaue Kugel ist kleiner als die umgebenden roten, bei der rechten ist es umgekehrt. Die Übertragung von relativ kleiner und relativ größer auf die beiden blauen Kugeln in direkten Vergleich ist falsch. Beide blauen Kugeln sind gleich groß.</string>
+    <string name="optTaeschungGroesse">Relativität von Größe: Sind alle drei Schwesternpaare gleich groß?</string>
+    <string name="optTaeschungGroesseInfo">Wir interpretieren Größe in Abhängigkeit von der Umgebung. Das Paar im Vordergrund erscheint kleiner als das mittlere Paar und das hintere am größten. Alle drei Schwesternpaare sind gleich groß. Durch das Bild wird der Eindruck räumlicher Tiefe vermittelt.</string>
+    <string name="neckerWuerfel">Mehrfach wahrgenommene Objekte: Beginnt der Würfel links unten oder von rechts unten?</string>
+    <string name="neckerWuerfelInfo">Kippbilder oder Kippfiguren können zu spontanen Gestalt- bzw. Wahrnehmungswechseln (multistabile Wahrnehmung) führen. Hier abgebildet ist der Necker-Würfel, welches das Gittermodell eines Würfels darstellt. Die beiden großen, sich überschneidenden Quadrate können dabei jeweils sowohl Vorder- als auch Rückseite sein. Somit erkennt man je nach Fokussierung einen links unten beginnenden Würfel, auf den man 1. von rechts oben draufsieht oder 2. von rechts unten betrachtet.</string>
+    <string name="revolvingCircles">Bewegungsillusionen: Die zwei Kreise scheinen sich zu drehen, wenn der Betrachter seinen Kopf vor- und zurückbewegt und dabei auf den schwarzen Punkt schaut.</string>
+    <string name="revolvingCirclesInfo">Mit peripherem Blick lassen sich Bewegungen an Stellen erkennen, die gerade nicht fokussiert werden. Die Ursache findet sich in wiederholten Mustern innerhalb derer sich unteschiedlich starke Kontraste befinden. Durch die unterschiedlich schnelle Weiterleitung von unterschiedlich starken Kontrasten und Helligkeiten in der Peripherie der Retina kommt es an den nachgeschalteten Ebenen der visuellen Verarbeitung zur Falschverarbeitung -> Fehlinterpretation.</string>
+    <string name="close">Schließen</string>
+    <string name="click">Klick auf die Mitte</string>
+    <string name="programmingList">Programming Languages:</string>
+    <string name="operatingList">Operating Systems:</string>
+    <string name="exit">Verlassen</string>
+    <string name="game">Game</string>
+    <string name="with">with</string>
+    <string name="dots">Dots!</string>
+    <string name="initScore">0</string>
+    <string name="gameover">Spiel vorbei</string>
+    <string name="newRecord">Neue Höchstpunktzahl</string>
+    <string name="play_again">Nochmal</string>
+    <string name="found">DOTS!</string>
+    <string name="score">Punkte</string>
+    <string name="mail">E-Mail</string>
+    <string name="question">\?</string>
+    <string name="to">An</string>
+    <string name="subject">Thema</string>
+    <string name="message">Nachricht</string>
+    <string name="send">Senden</string>
+    <string name="vertical">Vertikal</string>
+    <string name="horizontal">Horizontal</string>
+    <string name="tabulator">     </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="spieler_anzahl">Spieleranzahl</string>
+    <string name="runde">Runde: %1$d Spieler: %2$d</string>
+    <string name="nextPlayer">Player %1$d Press to Speech</string>
+
+    <string name="linearlayout">Linear Layout</string>
+    <string name="relativelayout">Relative Layout</string>
+    <string name="tablelayout">Table Layout</string>
+    <string name="listview">List View</string>
+    <string name="gridelayout">Grid Layout</string>
+    <string name="framelayout">Frame Layout</string>
+    <string name="absolutelayout">Absolute Layout</string>
+    <string name="swipeviewlayout">Swipe View</string>
+    <string name="actionbartabs">Action Bar tabs</string>
+    <string name="navigationdrawer">Navigation Drawer</string>
+
+    <string name="element1">1. Element</string>
+    <string name="element2">2. Element</string>
+    <string name="element3">3. Element</string>
+    <string name="element4">4. Element</string>
+
+    <string name="noSensor">Kein Sensor vorhanden</string>
+    <string name="sunshine">sonnig</string>
+    <string name="text_hint">Text für Toast-Meldung eingeben</string>
+    <string name="toastMsg">Toast Message</string>
+    <string name="ok">OK</string>
+
+    <string-array name="widget_array">
+        <item>android.widget.AnalogClock</item>
+        <item>android.widget.Button</item>
+        <item>android.widget.CalendarView</item>
+        <item>android.widget.CheckBox</item>
+        <item>android.widget.Chronometer</item>
+        <item>android.widget.DatePicker</item>
+        <item>android.widget.DigitalClock</item>
+        <item>android.widget.ImageButton</item>
+        <item>android.widget.ImageView</item>
+        <item>android.widget.ProgressBar</item>
+        <item>android.widget.RadioButton</item>
+        <item>android.widget.RatingBar</item>
+        <item>android.widget.TextClock</item>
+        <item>android.widget.TextView</item>
+        <item>android.widget.TimePicker</item>
+        <item>android.widget.ToggleButton</item>
+        <item>android.widget.ViewFlipper</item>
+        <item>android.widget.ListView</item>
+        <item>android.widget.GridView</item>
+        <item>android.widget.SeekBar</item>
+        <item>android.widget.Spinner</item>
+        <item>android.widget.StackView</item>
+        <item>android.widget.Switch</item>
+        <item>android.webkit.WebView</item>
+        <item>android.widget.AdapterViewFlipper</item>
+    </string-array>
+</resources>

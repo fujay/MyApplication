@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_layouts"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <Button
+        android:id="@+id/buttonMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_menu"
+        android:layout_above="@+id/buttonLayout"
+        android:layout_toRightOf="@+id/buttonLayout" />
+
+    <Button
+        android:id="@+id/buttonDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_dialog"
+        android:layout_alignLeft="@+id/buttonMenu"
+        android:layout_below="@+id/buttonLayout" />
+
+    <Button
+        android:id="@+id/buttonTaeschung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_taeschung"
+        android:layout_below="@+id/buttonLayout"
+        android:layout_toLeftOf="@+id/buttonLayout" />
+
+    <Button
+        android:id="@+id/buttonWidget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_widget"
+        android:layout_above="@+id/buttonLayout"
+        android:layout_toLeftOf="@+id/buttonLayout" />
+
+    <Button
+        android:id="@+id/buttonVoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_voice"
+        android:layout_above="@+id/buttonWidget"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <Button
+        android:id="@+id/buttonSensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_sensor"
+        android:layout_below="@+id/buttonTaeschung"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <Button
+        android:id="@+id/buttonInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_input"
+        android:layout_below="@+id/buttonSensor"
+        android:layout_toLeftOf="@+id/buttonSensor" />
+
+    <Button
+        android:id="@+id/buttonGames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_games"
+        android:layout_alignLeft="@+id/buttonDialog"
+        android:layout_below="@+id/buttonSensor" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:src="@android:drawable/ic_menu_help"
+        android:contentDescription="@string/button_faq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

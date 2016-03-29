@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="programming">
+        <item name="c">C</item>
+        <item name="c++">C++</item>
+        <item name="java">Java</item>
+        <item name="c#">C#</item>
+        <item name="python">Python</item>
+    </string-array>
+
+    <string-array name="operatingsystems">
+        <item name="windows">Windows</item>
+        <item name="mac">Mac OS</item>
+        <item name="linux">Linux</item>
+    </string-array>
+</resources>

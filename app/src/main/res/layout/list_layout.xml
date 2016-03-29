@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_size" >
+
+    <TextView
+        android:text="@string/programmingList"
+        android:textSize="@dimen/text"
+        android:textStyle="bold"
+        android:padding="@dimen/padding_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/listviewProgramming"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/table_size"
+        android:background="@color/colorPrimaryDark" >
+    </ListView>
+
+    <TextView
+        android:text="@string/operatingList"
+        android:textSize="@dimen/text"
+        android:textStyle="bold"
+        android:padding="@dimen/padding_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/listviewOperating"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/table_size"
+        android:background="@color/red" >
+    </ListView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textviewInfoProgramming"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_toLeftOf="@+id/textviewInfoOperating"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textviewInfoOperating"
+            android:textColor="@color/red"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/buttonQuestion"
+            android:src="@android:drawable/ic_menu_help"
+            android:contentDescription="@string/button_faq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+</LinearLayout>

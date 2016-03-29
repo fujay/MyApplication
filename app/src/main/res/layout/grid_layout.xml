@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="@string/element1"
+            />
+
+        <TextView
+            android:text="@string/element2"
+            />
+
+        <Button
+            android:text="@string/element3"/>
+
+        <TextView
+            android:text="@string/element4"
+            />
+
+    </GridLayout>
+
+    <GridLayout
+        android:paddingTop="@dimen/item_touch_helper_max_drag_scroll_per_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:text="@string/element1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_column="1"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:text="@string/element2" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_column="2"
+            android:layout_gravity="fill_vertical"
+            android:layout_row="0"
+            android:layout_rowSpan="2"
+            android:text="@string/element3" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="1"
+            android:text="@string/element4" />
+
+    </GridLayout>
+
+</LinearLayout>
